@@ -24,4 +24,5 @@ The mobile app can be found in the `DentalClassificationApp` folder, and can be 
 
 **Note 2:** Make sure that you are running `torch==1.9.0` and `torchvision==1.10.1` (Python `3.7.9`) when generating the PyTorch Lite files, as otherwise the models might not work with the version of PyTorch used in the Android app.
 
-
+## AUTHOR CONTRIBUTION STATEMENT 
+A.G., J.L., and A.M. conceived the research topic. A.G. built and trained the models, and constructed the mobile app. J.L. constructed the graphs. A.M. created the figures. All authors contributed to the manuscript.
