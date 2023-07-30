@@ -1,0 +1,6 @@
+{
+  "time": {"ResNet34": 1.0, "MobileNet": 0.4},
+  "ram": {"ResNet34": 87.8, "MobileNet": 33.9},
+  "load": {"ResNet34": 49, "MobileNet": 10},
+  "runImage": {"ResNet34": 50, "MobileNet": 31}
+}

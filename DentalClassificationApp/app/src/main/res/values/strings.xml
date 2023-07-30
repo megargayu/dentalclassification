@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Dental Classification</string>
+
+    <string-array name="models">
+        <item>ResNet34</item>
+        <item>MobileNetV3</item>
+    </string-array>
+
+    <string-array name="model_paths">
+        <item>resnet34.ptl</item>
+        <item>mobilenet.ptl</item>
+    </string-array>
+</resources>

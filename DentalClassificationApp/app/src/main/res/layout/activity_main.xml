@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginBottom="20dp"
+        android:contentDescription="The current image being processed."
+        android:scaleType="fitCenter"
+        app:srcCompat="@android:drawable/ic_menu_gallery" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:text="Load and run a model below!"
+        android:textSize="18sp" />
+
+    <Spinner
+        android:id="@+id/model_dropdown"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginBottom="10dp"
+        android:spinnerMode="dropdown"
+        android:entries="@array/models"/>
+
+    <TextView
+        android:id="@+id/dataset_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🔴 Dataset Not Loaded"
+        android:lineSpacingExtra="5dp"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:layout_marginBottom="5dp" />
+
+    <TextView
+        android:id="@+id/model_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🔴 Model Not Loaded"
+        android:lineSpacingExtra="5dp"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:layout_marginBottom="10dp" />
+
+    <Button
+        android:id="@+id/load_dataset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Load Dataset" />
+
+    <Button
+        android:id="@+id/load_model"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Load Model"
+        android:layout_marginBottom="30dp" />
+
+    <Button
+        android:id="@+id/random_image_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Run Random Image On Model"
+        android:enabled="false" />
+
+    <Button
+        android:id="@+id/full_test_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Run Full Test On Model"
+        android:enabled="false"/>
+
+</LinearLayout>
