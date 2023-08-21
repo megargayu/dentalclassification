@@ -3,6 +3,8 @@
 
 Oral diseases such as periodontal (gum) diseases and dental caries (cavities) affect billions of people across the world today. However, previous state-of-the-art models have relied on X-ray images to detect oral diseases, making them inaccessible to remote monitoring, developing countries, and telemedicine. To combat this overuse of X-ray imagery, we propose a lightweight machine learning model capable of detecting calculus (also known as hardened plaque or tartar) in RGB images while running efficiently on low-end devices. The model, a modified MobileNetV3-Small neural network transfer learned from ImageNet, achieved an accuracy of 72.73% (which is comparable to state-of-the-art solutions) while still being able to run on mobile devices due to its reduced memory requirements and processing times. Because our model can be accessed through smartphones, it has the potential to limit the number of serious oral disease cases as its predictions can help patients schedule appointments earlier without the need to go to the clinic. 
 
+The current draft of the paper can be found in `./paper.pdf`. We are currently in the process of publishing the paper.
+
 
 ## Folder Structure
 The folder structure is as follows (click on each link to go to the header with more information on that folder):
